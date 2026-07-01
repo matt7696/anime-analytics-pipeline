@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+
+# Data files — don't commit raw data to git
+*.json
+*.csv
+
+# Environment variables — never commit secrets
+.env
+
+# OS
+.DS_Store
