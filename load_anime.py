@@ -85,8 +85,8 @@ if __name__ == "__main__":
 
     load_anime_data(conn, anime_df)
     load_studios_data(conn, studios_df)
-    load_anime_studios_data(conn, anime_studios_df)
     load_genres_data(conn, genres_df)
+    load_anime_studios_data(conn, anime_studios_df)
     load_anime_genres_data(conn, anime_genres_df)
 
     conn.close()
