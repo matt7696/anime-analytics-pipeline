@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv
-import psycopg2
 import matplotlib.pyplot as plt
 import pandas as pd
 from sqlalchemy import create_engine

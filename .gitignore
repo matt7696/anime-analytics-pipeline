@@ -12,6 +12,7 @@ env/
 
 # OS
 .DS_Store
+.vscode/
 
 # Generated data
 data/raw/
