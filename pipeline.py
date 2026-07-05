@@ -1,7 +1,13 @@
-
 from fetch_anime import fetch_top_anime
 from transform_anime import transform_anime, transform_genre, transform_studio
-from load_anime import connect, load_anime_data, load_studios_data, load_anime_studios_data, load_genres_data, load_anime_genres_data
+from load_anime import (
+    connect,
+    load_anime_data,
+    load_studios_data,
+    load_anime_studios_data,
+    load_genres_data,
+    load_anime_genres_data,
+)
 
 
 def run_pipeline():
@@ -21,8 +27,9 @@ def run_pipeline():
     load_anime_studios_data(conn, anime_studios_df)
     load_anime_genres_data(conn, anime_genres_df)
     conn.close()
-    
+
     print("Pipeline completed successfully!")
-    
+
+
 if __name__ == "__main__":
     run_pipeline()

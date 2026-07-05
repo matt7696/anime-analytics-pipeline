@@ -16,3 +16,4 @@ env/
 # Generated data
 data/raw/
 data/processed/
+charts/
