@@ -1,6 +1,6 @@
-from fetch_anime import fetch_top_anime
-from transform_anime import transform_anime, transform_genre, transform_studio
-from load_anime import (
+from ingest.fetch_anime import fetch_top_anime
+from transform.transform_anime import transform_anime, transform_genre, transform_studio
+from load.load_anime import (
     connect,
     load_anime_data,
     load_studios_data,
