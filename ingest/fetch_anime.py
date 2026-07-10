@@ -18,6 +18,6 @@ def fetch_top_anime(pages: int = 1) -> list[dict]:
 
 
 if __name__ == "__main__":
-    anime = fetch_top_anime(2)
+    anime = fetch_top_anime(6)
     with open("data/raw/raw_anime_data.json", "w", encoding="utf-8") as f:
         json.dump(anime, f, indent=2)
